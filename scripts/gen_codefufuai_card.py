@@ -89,12 +89,17 @@ _STEP_T0 = [sum(ms for _, ms in STEPS[:k]) / (1000 * PET_LOOP_S)
 def pet_sprite(x, y, freeze=None):
     """Frame-swapped pet sprite: one <image> per unique PNG, SMIL discrete
     opacity windows over the STEPS timeline. freeze=K pins loop step K at
-    t=0 (negative begin) for screenshot forensics."""
+    t=0 (negative begin) for screenshot forensics. The outer group gets a
+    one-shot SMIL fade-in (0.25s) — the sprite's entrance; the frame-swap
+    loop underneath is untouched."""
     n = len(STEPS)
     kt = ";".join(f"{t:.4f}" for t in _STEP_T0)
     begin = f' begin="{-sum(ms for _, ms in STEPS[:freeze]) / 1000:.3f}s"' \
         if freeze is not None else ""
-    out = [f'<g transform="translate({x},{y})">']
+    enter = ('<animate attributeName="opacity" values="0;1" keyTimes="0;1" '
+             'dur="0.25s" fill="freeze"/>' if freeze is None else "")
+    out = [f'<g transform="translate({x},{y})" opacity="0">{enter}'] if enter else \
+          [f'<g transform="translate({x},{y})">']
     for fi, b64 in enumerate(PNGS):
         base = "" if fi == 0 else ' opacity="0"'
         vals = ";".join("1" if step_fi == fi else "0" for step_fi, _ms in STEPS)
@@ -200,12 +205,13 @@ def build_css():
     .tag  {{ font-size:12.5px; fill:{C["user"]}; }}
     .qt   {{ font-size:12.5px; fill:{C["dim"]}; }}
     .pmt  {{ font-size:14px; fill:{C["user"]}; }}
+    .fin  {{ opacity:0; animation:on .01s steps(1) forwards; }}
     .cur  {{ animation: curb 1.1s steps(1) infinite; }}
     @keyframes on   {{ to {{ opacity:1; }} }}
     @keyframes curb {{ 0% {{ opacity:1; }} 55% {{ opacity:0; }} }}
     @media (prefers-reduced-motion: reduce) {{
       * {{ animation: none !important; }}
-      .ok, .cur {{ opacity:1; }}
+      .ok, .cur, .fin {{ opacity:1; }}
     }}
     """
 
@@ -253,10 +259,14 @@ def droid_sprite(x, y, freeze=None):
     return "".join(out)
 
 
-def lines(s, x, y0, rows):
-    """rows: (cls, body) tagged lines at 20px rhythm."""
+def lines(s, x, y0, rows, delay0=None, dt=0.07):
+    """rows: (cls, body) tagged lines at 20px rhythm. delay0 opts the row into
+    the boot sequence: each line gets class fin + a staggered animation-delay
+    (in-family entrance dialect — .ok already fades, .liv and friends need fin)."""
     for i, (cls, body) in enumerate(rows):
-        s.append(f'<text class="{cls}" x="{x}" y="{y0 + i * 20}">{body}</text>')
+        dly = f' style="animation-delay:{delay0 + i * dt:.2f}s"' if delay0 is not None else ""
+        extra = " fin" if delay0 is not None else ""
+        s.append(f'<text class="{cls}{extra}"{dly} x="{x}" y="{y0 + i * 20}">{body}</text>')
 
 
 def build(theme, zh=False, freeze=None, prs_opened=None):
@@ -290,22 +300,26 @@ def build(theme, zh=False, freeze=None, prs_opened=None):
         ("ok", esc(T["c1_l2"])),
         ("ok", esc(T["c1_l3"])),
         ("liv", esc(T["c1_l4"])),
-    ])
-    s.append(f'<text class="tag" x="{TX}" y="{y0 + 4 * 20}">{esc(T["c1_tag"])}</text>')
+    ], delay0=0.05)
+    s.append(f'<text class="tag fin" style="animation-delay:.33s" x="{TX}" '
+             f'y="{y0 + 4 * 20}">{esc(T["c1_tag"])}</text>')
 
     # ---- card 2: the loop ----
     card_rect(s, Y2, H2)
     titlebar(s, Y2, T["c2_cmd"], T["c2_cap"])
     y0 = Y2 + TB_H + 24
     for i, (verb, rest) in enumerate(T["steps"]):
-        s.append(f'<text x="20" y="{y0 + i * 20}">'
+        s.append(f'<text class="fin" style="animation-delay:{.42 + i * .06:.2f}s" '
+                 f'x="20" y="{y0 + i * 20}">'
                  f'<tspan class="step">[ 0{i + 1} ] </tspan>'
                  f'<tspan fill="{C["title"]}" font-weight="700">{esc(verb)}</tspan>'
                  f'<tspan class="cap"> — {esc(rest)}</tspan></text>')
     div = y0 + 5 * 20 + 6
-    s.append(f'<line x1="20" y1="{div}" x2="{CARD_X + CARD_W - 20}" y2="{div}" '
+    s.append(f'<line class="fin" style="animation-delay:.72s" x1="20" y1="{div}" '
+             f'x2="{CARD_X + CARD_W - 20}" y2="{div}" '
              f'stroke="{C["border"]}" stroke-dasharray="5 6"/>')
-    s.append(f'<text class="qt" x="20" y="{div + 24}">{esc(T["quote"])}</text>')
+    s.append(f'<text class="qt fin" style="animation-delay:.78s" x="20" y="{div + 24}">'
+             f'{esc(T["quote"])}</text>')
 
     # ---- card 3: current post ----
     card_rect(s, Y3, H3)
@@ -316,10 +330,11 @@ def build(theme, zh=False, freeze=None, prs_opened=None):
         ("ok", esc(T["c3_l2"])),
         ("ok", esc(T["c3_l3"])),
         ("ok", esc(T["c3_l4"])),
-    ])
+    ], delay0=0.88, dt=0.06)
     # trailing prompt with a blinking block cursor (mono advance ≈ 0.6em)
     py = y0 + 4 * 20 + 6
-    s.append(f'<text class="pmt" x="20" y="{py}">{esc(T["prompt"])}</text>')
+    s.append(f'<text class="pmt fin" style="animation-delay:1.14s" x="20" y="{py}">'
+             f'{esc(T["prompt"])}</text>')
     s.append(f'<rect class="cur" x="{20 + len(T["prompt"]) * 14 * 0.6 + 3}" y="{py - 11}" '
              f'width="8" height="13" fill="{C["green"]}"/>')
 
@@ -354,7 +369,7 @@ def main():
     for theme in ("dark", "light"):
         for zh in (False, True):
             name = f"profile-zh-{theme}.svg" if zh else f"profile-{theme}.svg"
-            p = OUT / name
+            p = (OUT / name).resolve()
             p.write_text(build(theme, zh))
             print(f"wrote {p.relative_to(ROOT)} ({p.stat().st_size} bytes)")
 

@@ -8,9 +8,11 @@ her daemon is this script on a cron. Steps:
    data/contribs.json — the snake card's meal, literally 她自己的提交墙
 2. count her authored PRs (search API) → data/stats.json — feeds the
    profile card's "PRs opened" line
-3. regenerate the snake card and the profile card (all theme/language
-   variants) into assets/
-4. bump the README ?v= cache-bust params
+3. fetch her public profile facts (REST /users/{owner}) → data/user.json —
+   feeds the stats card's repos/followers blocks
+4. regenerate the snake card, the profile card and the stats card (all
+   theme/language variants) into assets/
+5. bump the README ?v= cache-bust params
 
 Git commit/push is the caller's job (the workflow does it); this script
 only writes files. Runs locally too (any authenticated gh).
@@ -51,9 +53,13 @@ def main():
     stats = {"prs_opened": res["total_count"]}
     (DATA / "stats.json").write_text(json.dumps(stats) + "\n")
 
+    # REST profile facts for the stats card (public_repos, followers)
+    (DATA / "user.json").write_text(gh("api", f"users/{owner}"))
+
     subprocess.run([sys.executable, str(HERE / "gen_snake_card.py")], check=True)
     subprocess.run([sys.executable, str(HERE / "gen_codefufuai_card.py"),
                     "--stats-json", str(DATA / "stats.json")], check=True)
+    subprocess.run([sys.executable, str(HERE / "gen_stats_card.py")], check=True)
 
     v = int(time.time())
     for name in ("README.md", "README.zh-CN.md"):
