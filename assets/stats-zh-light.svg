@@ -39,9 +39,9 @@
 <text x="86" y="27.2"><tspan fill="#0969da" font-weight="700">codefufuai@farrell-z</tspan><tspan fill="#6e7f95"> ~ % </tspan><tspan fill="#1f2328">gh api graphql</tspan></text>
 <text x="936" y="27.2" fill="#6e7f95" text-anchor="end">rest v3 + graphql · 自 2026-10-31</text>
 <text class="liv fin" style="animation-delay:.05s" x="20" y="66">[LIVE] <tspan fill="#1f2328" font-weight="700">@codefufuai · 3 个公开仓库 · 1 关注者 · 操作员 @Acfufu</tspan></text>
-<text class="ok" style="animation-delay:.18s" x="20" y="88">创建于 2026-10-31 · 在岗第 7 天 · 7 个活跃日 · 最长连击 7 天</text>
+<text class="ok" style="animation-delay:.18s" x="20" y="88">创建于 2026-10-31 · 在岗第 8 天 · 7 个活跃日 · 最长连击 7 天</text>
 <text class="slab" style="animation-delay:0.28s" x="128" y="122" text-anchor="middle">贡献</text>
-<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#1f2328">15</text>
+<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#1f2328">16</text>
 <text class="stlab" style="animation-delay:0.36s" x="128" y="175" text-anchor="middle">日历总计</text>
 <text class="slab" style="animation-delay:0.35s" x="304" y="122" text-anchor="middle">活跃日</text>
 <text class="fin" style="animation-delay:0.39s" x="304" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#1f2328">7</text>
@@ -70,7 +70,7 @@
 <text class="alab" style="animation-delay:860ms" x="633.3" y="311" text-anchor="middle">11/4</text>
 <rect class="dbar" x="769.7" y="252.8" width="34.0" height="43.2" fill="url(#gsg)" style="animation-delay:900ms"/>
 <text class="alab" style="animation-delay:900ms" x="786.7" y="311" text-anchor="middle">11/5</text>
-<rect class="dbar" x="923.0" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:940ms"/>
+<rect class="dbar" x="923.0" y="267.2" width="34.0" height="28.8" fill="url(#gsg)" style="animation-delay:940ms"/>
 <text class="alab" style="animation-delay:940ms" x="940.0" y="311" text-anchor="middle">11/6</text>
 <circle class="roll" cx="173.3" cy="224.0" r="4" fill="#0a5cc2" stroke="#ffffff" stroke-width="2"/>
 <text class="roll" x="196.3" y="227.5" font-size="10" font-weight="600" fill="#424a53" text-anchor="start">11/1 · 5</text>
