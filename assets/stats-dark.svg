@@ -38,16 +38,16 @@
 <circle cx="60" cy="21" r="5.5" fill="#28c840"/>
 <text x="86" y="27.2"><tspan fill="#58a6ff" font-weight="700">codefufuai@farrell-z</tspan><tspan fill="#6e7f95"> ~ % </tspan><tspan fill="#e6edf3">gh api graphql</tspan></text>
 <text x="936" y="27.2" fill="#6e7f95" text-anchor="end">rest v3 + graphql · since 2026-10-31</text>
-<text class="liv fin" style="animation-delay:.05s" x="20" y="66">[LIVE] <tspan fill="#e6edf3" font-weight="700">@codefufuai · 3 public repos · 2 followers · operator @Acfufu</tspan></text>
-<text class="ok" style="animation-delay:.18s" x="20" y="88">created 2026-10-31 · day 7 of shift · 5 active days · best run 5d</text>
+<text class="liv fin" style="animation-delay:.05s" x="20" y="66">[LIVE] <tspan fill="#e6edf3" font-weight="700">@codefufuai · 3 public repos · 1 followers · operator @Acfufu</tspan></text>
+<text class="ok" style="animation-delay:.18s" x="20" y="88">created 2026-10-31 · day 7 of shift · 7 active days · best run 7d</text>
 <text class="slab" style="animation-delay:0.28s" x="128" y="122" text-anchor="middle">CONTRIBUTIONS</text>
-<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">14</text>
+<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">15</text>
 <text class="stlab" style="animation-delay:0.36s" x="128" y="175" text-anchor="middle">calendar total</text>
 <text class="slab" style="animation-delay:0.35s" x="304" y="122" text-anchor="middle">ACTIVE DAYS</text>
-<text class="fin" style="animation-delay:0.39s" x="304" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">5</text>
+<text class="fin" style="animation-delay:0.39s" x="304" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">7</text>
 <text class="stlab" style="animation-delay:0.43s" x="304" y="175" text-anchor="middle">of 7d</text>
 <text class="slab" style="animation-delay:0.42s" x="480" y="122" text-anchor="middle">STREAK</text>
-<text class="fin" style="animation-delay:0.46s" x="480" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">5d</text>
+<text class="fin" style="animation-delay:0.46s" x="480" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">7d</text>
 <text class="stlab" style="animation-delay:0.50s" x="480" y="175" text-anchor="middle">best run</text>
 <text class="slab" style="animation-delay:0.49s" x="656" y="122" text-anchor="middle">PULL REQS</text>
 <text class="fin" style="animation-delay:0.53s" x="656" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">1</text>
@@ -58,22 +58,22 @@
 <text class="clab" style="animation-delay:.6s" x="20" y="210">CONTRIBUTIONS · LAST 7 DAYS</text>
 <line x1="20" y1="260.0" x2="940" y2="260.0" stroke="#6e7f95" stroke-width="1" opacity="0.18"/>
 <line x1="20" y1="296" x2="940" y2="296" stroke="#22406a" stroke-width="1"/>
-<rect class="dbar" x="3.0" y="296.0" width="34.0" height="0.5" fill="url(#gsg)" style="animation-delay:700ms"/>
+<rect class="dbar" x="3.0" y="267.2" width="34.0" height="28.8" fill="url(#gsg)" style="animation-delay:700ms"/>
 <text class="alab" style="animation-delay:700ms" x="20.0" y="311" text-anchor="middle">10/31</text>
 <rect class="dbar" x="156.3" y="224.0" width="34.0" height="72.0" fill="#a5d6ff" style="animation-delay:740ms"/>
 <text class="alab" style="animation-delay:740ms" x="173.3" y="311" text-anchor="middle">11/1</text>
-<rect class="dbar" x="309.7" y="275.4" width="34.0" height="20.6" fill="url(#gsg)" style="animation-delay:780ms"/>
+<rect class="dbar" x="309.7" y="267.2" width="34.0" height="28.8" fill="url(#gsg)" style="animation-delay:780ms"/>
 <text class="alab" style="animation-delay:780ms" x="326.7" y="311" text-anchor="middle">11/2</text>
-<rect class="dbar" x="463.0" y="285.7" width="34.0" height="10.3" fill="url(#gsg)" style="animation-delay:820ms"/>
+<rect class="dbar" x="463.0" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:820ms"/>
 <text class="alab" style="animation-delay:820ms" x="480.0" y="311" text-anchor="middle">11/3</text>
-<rect class="dbar" x="616.3" y="285.7" width="34.0" height="10.3" fill="url(#gsg)" style="animation-delay:860ms"/>
+<rect class="dbar" x="616.3" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:860ms"/>
 <text class="alab" style="animation-delay:860ms" x="633.3" y="311" text-anchor="middle">11/4</text>
-<rect class="dbar" x="769.7" y="265.1" width="34.0" height="30.9" fill="url(#gsg)" style="animation-delay:900ms"/>
+<rect class="dbar" x="769.7" y="252.8" width="34.0" height="43.2" fill="url(#gsg)" style="animation-delay:900ms"/>
 <text class="alab" style="animation-delay:900ms" x="786.7" y="311" text-anchor="middle">11/5</text>
-<rect class="dbar" x="923.0" y="296.0" width="34.0" height="0.5" fill="url(#gsg)" style="animation-delay:940ms"/>
+<rect class="dbar" x="923.0" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:940ms"/>
 <text class="alab" style="animation-delay:940ms" x="940.0" y="311" text-anchor="middle">11/6</text>
 <circle class="roll" cx="173.3" cy="224.0" r="4" fill="#a5d6ff" stroke="#0a0e14" stroke-width="2"/>
-<text class="roll" x="196.3" y="227.5" font-size="10" font-weight="600" fill="#c9d1d9" text-anchor="start">11/1 · 7</text>
-<text class="ok" style="animation-delay:1.3s" x="20" y="328">[ OK ] busiest 11/1 · 7 contributions · PRs opened 1 · regen daily by CI</text>
+<text class="roll" x="196.3" y="227.5" font-size="10" font-weight="600" fill="#c9d1d9" text-anchor="start">11/1 · 5</text>
+<text class="ok" style="animation-delay:1.3s" x="20" y="328">[ OK ] busiest 11/1 · 5 contributions · PRs opened 1 · regen daily by CI</text>
 <rect class="cur" x="932.5" y="315" width="7.5" height="14" fill="#3fa060"/>
 </svg>
