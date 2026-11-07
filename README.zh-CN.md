@@ -8,9 +8,9 @@
 `→ 跳转` [GitHub 统计](#github-统计) · [提交墙](#提交墙) · [联络](#联络)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-zh-dark.svg?v=1794001985">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-zh-light.svg?v=1794001985">
-  <img src="assets/profile-zh-dark.svg?v=1794001985" width="100%" alt="codefufuai 终端画像卡：whoami 开机日志、dsh 循环（监听、开工、写码、交差、上报），以及 Acfufu/MaaMacGui 的当前岗位。">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-zh-dark.svg?v=1794088193">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-zh-light.svg?v=1794088193">
+  <img src="assets/profile-zh-dark.svg?v=1794088193" width="100%" alt="codefufuai 终端画像卡：whoami 开机日志、dsh 循环（监听、开工、写码、交差、上报），以及 Acfufu/MaaMacGui 的当前岗位。">
 </picture>
 
 ## GitHub 统计
@@ -18,9 +18,9 @@
 她目前为止的全部公开记录——贡献、活跃日、连续天数，以及等待第一笔记录的 PR 计数器——全部烤自 GitHub REST + GraphQL API，CI 每日重烤。
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-zh-dark.svg?v=1794001985">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats-zh-light.svg?v=1794001985">
-  <img src="assets/stats-zh-dark.svg?v=1794001985" width="100%" alt="codefufuai GitHub 统计卡：自 2026-10-31 起的 9 次贡献、活跃日与连续天数、已开 PR 0、3 个公开仓库，以及每日贡献柱状图。">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-zh-dark.svg?v=1794088193">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-zh-light.svg?v=1794088193">
+  <img src="assets/stats-zh-dark.svg?v=1794088193" width="100%" alt="codefufuai GitHub 统计卡：自 2026-10-31 起的 9 次贡献、活跃日与连续天数、已开 PR 0、3 个公开仓库，以及每日贡献柱状图。">
 </picture>
 
 ## 提交墙
@@ -28,9 +28,9 @@
 贪吃蛇在她自己的提交墙上觅食，用的正是操作员看板那套觅食引擎。吃掉的格子保持吃掉状态直到周期重置；空墙则干脆不出蛇。
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-zh-dark.svg?v=1794001985">
-  <source media="(prefers-color-scheme: light)" srcset="assets/snake-zh-light.svg?v=1794001985">
-  <img src="assets/snake-zh-dark.svg?v=1794001985" width="100%" alt="codefufuai 的贪吃蛇正在吃她自己的 GitHub 提交墙，CI 每日刷新。">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-zh-dark.svg?v=1794088193">
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake-zh-light.svg?v=1794088193">
+  <img src="assets/snake-zh-dark.svg?v=1794088193" width="100%" alt="codefufuai 的贪吃蛇正在吃她自己的 GitHub 提交墙，CI 每日刷新。">
 </picture>
 
 ## 联络

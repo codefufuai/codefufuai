@@ -31,8 +31,8 @@
 <text x="890" y="56" font-size="8.5" fill="#57606a">11 月</text>
 <line x1="872" y1="61" x2="872" y2="175" stroke="#58a6ff" stroke-dasharray="3 4" opacity="0.75"/>
 <style>@keyframes km51_6 { 0.000% { fill:#0e4429; } 0.000% { fill:#0e4429; } 0.000% { fill:#c9e4ff; } 2.941% { fill:#79c0ff; } 14.706% { fill:#58a6ff; } 38.235% { fill:#4485d4; } 76.471% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
-.m51_6 { animation: km51_6 3.4s linear infinite; }@keyframes km51_5 { 0.000% { fill:#161b22; } 2.891% { fill:#161b22; } 2.941% { fill:#c9e4ff; } 5.882% { fill:#79c0ff; } 17.647% { fill:#58a6ff; } 41.176% { fill:#4485d4; } 79.412% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
-.m51_5 { animation: km51_5 3.4s linear infinite; }@keyframes km52_5 { 0.000% { fill:#0e4429; } 5.832% { fill:#0e4429; } 5.882% { fill:#c9e4ff; } 8.824% { fill:#79c0ff; } 20.588% { fill:#58a6ff; } 44.118% { fill:#4485d4; } 82.353% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
+.m51_6 { animation: km51_6 3.4s linear infinite; }@keyframes km52_6 { 0.000% { fill:#161b22; } 2.891% { fill:#161b22; } 2.941% { fill:#c9e4ff; } 5.882% { fill:#79c0ff; } 17.647% { fill:#58a6ff; } 41.176% { fill:#4485d4; } 79.412% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
+.m52_6 { animation: km52_6 3.4s linear infinite; }@keyframes km52_5 { 0.000% { fill:#006d32; } 5.832% { fill:#006d32; } 5.882% { fill:#c9e4ff; } 8.824% { fill:#79c0ff; } 20.588% { fill:#58a6ff; } 44.118% { fill:#4485d4; } 82.353% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
 .m52_5 { animation: km52_5 3.4s linear infinite; }@keyframes km52_4 { 0.000% { fill:#006d32; } 8.774% { fill:#006d32; } 8.824% { fill:#c9e4ff; } 11.765% { fill:#79c0ff; } 23.529% { fill:#58a6ff; } 47.059% { fill:#4485d4; } 85.294% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
 .m52_4 { animation: km52_4 3.4s linear infinite; }@keyframes km52_3 { 0.000% { fill:#0e4429; } 11.715% { fill:#0e4429; } 11.765% { fill:#c9e4ff; } 14.706% { fill:#79c0ff; } 26.471% { fill:#58a6ff; } 50.000% { fill:#4485d4; } 88.235% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
 .m52_3 { animation: km52_3 3.4s linear infinite; }@keyframes km52_2 { 0.000% { fill:#0e4429; } 14.656% { fill:#0e4429; } 14.706% { fill:#c9e4ff; } 17.647% { fill:#79c0ff; } 29.412% { fill:#58a6ff; } 52.941% { fill:#4485d4; } 91.176% { fill:#3a6cb0; } 100% { fill:#3a6cb0; } }
@@ -409,14 +409,15 @@
 <rect x="874" y="96" width="12" height="12" rx="2" class="h0" fill="#161b22"/>
 <rect x="874" y="112" width="12" height="12" rx="2" class="h0" fill="#161b22"/>
 <rect x="874" y="128" width="12" height="12" rx="2" class="h0" fill="#161b22"/>
-<rect x="874" y="144" width="12" height="12" rx="2" class="m51_5" fill="#161b22"/>
+<rect x="874" y="144" width="12" height="12" rx="2" class="h0" fill="#161b22"/>
 <rect x="874" y="160" width="12" height="12" rx="2" class="m51_6" fill="#0e4429"/>
 <rect x="890" y="64" width="12" height="12" rx="2" class="m52_0" fill="#006d32"/>
 <rect x="890" y="80" width="12" height="12" rx="2" class="m52_1" fill="#0e4429"/>
 <rect x="890" y="96" width="12" height="12" rx="2" class="m52_2" fill="#0e4429"/>
 <rect x="890" y="112" width="12" height="12" rx="2" class="m52_3" fill="#0e4429"/>
 <rect x="890" y="128" width="12" height="12" rx="2" class="m52_4" fill="#006d32"/>
-<rect x="890" y="144" width="12" height="12" rx="2" class="m52_5" fill="#0e4429"/>
+<rect x="890" y="144" width="12" height="12" rx="2" class="m52_5" fill="#006d32"/>
+<rect x="890" y="160" width="12" height="12" rx="2" class="m52_6" fill="#161b22"/>
 <text x="866" y="186" font-size="8.5" fill="#58a6ff" text-anchor="end" opacity="0.8">出生 2026-10-31</text>
 <text x="808" y="204" font-size="10" fill="#57606a" text-anchor="end">少</text>
 <rect x="816" y="197" width="8" height="8" rx="1.5" class="h0"/>
@@ -429,10 +430,10 @@
 <text x="58" y="226" font-size="9.5" font-weight="500" fill="#6e7f95">$ 吃掉的 commit：</text>
 <text class="r0 num" x="210" y="226" font-size="12" font-weight="600" fill="#c9d1d9">2</text>
 <text class="r1 num" x="296" y="226" font-size="12" font-weight="600" fill="#c9d1d9">2</text>
-<text class="r2 num" x="383" y="226" font-size="12" font-weight="600" fill="#c9d1d9">4</text>
-<text class="r3 num" x="470" y="226" font-size="12" font-weight="600" fill="#c9d1d9">7</text>
-<text class="r4 num" x="556" y="226" font-size="12" font-weight="600" fill="#c9d1d9">8</text>
-<text class="r5 num" x="642" y="226" font-size="12" font-weight="600" fill="#c9d1d9">9</text>
-<text class="r6 num" x="729" y="226" font-size="12" font-weight="600" fill="#c9d1d9">11</text>
-<text class="r7 num" x="816" y="226" font-size="12" font-weight="600" fill="#c9d1d9">16</text>
+<text class="r2 num" x="383" y="226" font-size="12" font-weight="600" fill="#c9d1d9">5</text>
+<text class="r3 num" x="470" y="226" font-size="12" font-weight="600" fill="#c9d1d9">8</text>
+<text class="r4 num" x="556" y="226" font-size="12" font-weight="600" fill="#c9d1d9">9</text>
+<text class="r5 num" x="642" y="226" font-size="12" font-weight="600" fill="#c9d1d9">10</text>
+<text class="r6 num" x="729" y="226" font-size="12" font-weight="600" fill="#c9d1d9">12</text>
+<text class="r7 num" x="816" y="226" font-size="12" font-weight="600" fill="#c9d1d9">17</text>
 </svg>
