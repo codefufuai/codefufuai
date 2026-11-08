@@ -39,15 +39,15 @@
 <text x="86" y="27.2"><tspan fill="#58a6ff" font-weight="700">codefufuai@farrell-z</tspan><tspan fill="#6e7f95"> ~ % </tspan><tspan fill="#e6edf3">gh api graphql</tspan></text>
 <text x="936" y="27.2" fill="#6e7f95" text-anchor="end">rest v3 + graphql · 自 2026-10-31</text>
 <text class="liv fin" style="animation-delay:.05s" x="20" y="66">[LIVE] <tspan fill="#e6edf3" font-weight="700">@codefufuai · 3 个公开仓库 · 1 关注者 · 操作员 @Acfufu</tspan></text>
-<text class="ok" style="animation-delay:.18s" x="20" y="88">创建于 2026-10-31 · 在岗第 9 天 · 7 个活跃日 · 最长连击 7 天</text>
+<text class="ok" style="animation-delay:.18s" x="20" y="88">创建于 2026-10-31 · 在岗第 10 天 · 8 个活跃日 · 最长连击 8 天</text>
 <text class="slab" style="animation-delay:0.28s" x="128" y="122" text-anchor="middle">贡献</text>
-<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">17</text>
+<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">18</text>
 <text class="stlab" style="animation-delay:0.36s" x="128" y="175" text-anchor="middle">日历总计</text>
 <text class="slab" style="animation-delay:0.35s" x="304" y="122" text-anchor="middle">活跃日</text>
-<text class="fin" style="animation-delay:0.39s" x="304" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">7</text>
-<text class="stlab" style="animation-delay:0.43s" x="304" y="175" text-anchor="middle">/ 8 天</text>
+<text class="fin" style="animation-delay:0.39s" x="304" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">8</text>
+<text class="stlab" style="animation-delay:0.43s" x="304" y="175" text-anchor="middle">/ 9 天</text>
 <text class="slab" style="animation-delay:0.42s" x="480" y="122" text-anchor="middle">连续</text>
-<text class="fin" style="animation-delay:0.46s" x="480" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">7天</text>
+<text class="fin" style="animation-delay:0.46s" x="480" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">8天</text>
 <text class="stlab" style="animation-delay:0.50s" x="480" y="175" text-anchor="middle">最长一段</text>
 <text class="slab" style="animation-delay:0.49s" x="656" y="122" text-anchor="middle">PR</text>
 <text class="fin" style="animation-delay:0.53s" x="656" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">1</text>
@@ -55,27 +55,29 @@
 <text class="slab" style="animation-delay:0.56s" x="832" y="122" text-anchor="middle">仓库</text>
 <text class="fin" style="animation-delay:0.60s" x="832" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">3</text>
 <text class="stlab" style="animation-delay:0.64s" x="832" y="175" text-anchor="middle">2 个 fork + 本体</text>
-<text class="clab" style="animation-delay:.6s" x="20" y="210">贡献 · 近 8 天</text>
+<text class="clab" style="animation-delay:.6s" x="20" y="210">贡献 · 近 9 天</text>
 <line x1="20" y1="260.0" x2="940" y2="260.0" stroke="#6e7f95" stroke-width="1" opacity="0.18"/>
 <line x1="20" y1="296" x2="940" y2="296" stroke="#22406a" stroke-width="1"/>
 <rect class="dbar" x="3.0" y="267.2" width="34.0" height="28.8" fill="url(#gsg)" style="animation-delay:700ms"/>
 <text class="alab" style="animation-delay:700ms" x="20.0" y="311" text-anchor="middle">10/31</text>
-<rect class="dbar" x="134.4" y="224.0" width="34.0" height="72.0" fill="#a5d6ff" style="animation-delay:740ms"/>
-<text class="alab" style="animation-delay:740ms" x="151.4" y="311" text-anchor="middle">11/1</text>
-<rect class="dbar" x="265.9" y="267.2" width="34.0" height="28.8" fill="url(#gsg)" style="animation-delay:780ms"/>
-<text class="alab" style="animation-delay:780ms" x="282.9" y="311" text-anchor="middle">11/2</text>
-<rect class="dbar" x="397.3" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:820ms"/>
-<text class="alab" style="animation-delay:820ms" x="414.3" y="311" text-anchor="middle">11/3</text>
-<rect class="dbar" x="528.7" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:860ms"/>
-<text class="alab" style="animation-delay:860ms" x="545.7" y="311" text-anchor="middle">11/4</text>
-<rect class="dbar" x="660.1" y="252.8" width="34.0" height="43.2" fill="url(#gsg)" style="animation-delay:900ms"/>
-<text class="alab" style="animation-delay:900ms" x="677.1" y="311" text-anchor="middle">11/5</text>
-<rect class="dbar" x="791.6" y="252.8" width="34.0" height="43.2" fill="url(#gsg)" style="animation-delay:940ms"/>
-<text class="alab" style="animation-delay:940ms" x="808.6" y="311" text-anchor="middle">11/6</text>
-<rect class="dbar" x="923.0" y="296.0" width="34.0" height="0.5" fill="url(#gsg)" style="animation-delay:980ms"/>
-<text class="alab" style="animation-delay:980ms" x="940.0" y="311" text-anchor="middle">11/7</text>
-<circle class="roll" cx="151.4" cy="224.0" r="4" fill="#a5d6ff" stroke="#0a0e14" stroke-width="2"/>
-<text class="roll" x="174.4" y="227.5" font-size="10" font-weight="600" fill="#c9d1d9" text-anchor="start">11/1 · 5</text>
+<rect class="dbar" x="118.0" y="224.0" width="34.0" height="72.0" fill="#a5d6ff" style="animation-delay:740ms"/>
+<text class="alab" style="animation-delay:740ms" x="135.0" y="311" text-anchor="middle">11/1</text>
+<rect class="dbar" x="233.0" y="267.2" width="34.0" height="28.8" fill="url(#gsg)" style="animation-delay:780ms"/>
+<text class="alab" style="animation-delay:780ms" x="250.0" y="311" text-anchor="middle">11/2</text>
+<rect class="dbar" x="348.0" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:820ms"/>
+<text class="alab" style="animation-delay:820ms" x="365.0" y="311" text-anchor="middle">11/3</text>
+<rect class="dbar" x="463.0" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:860ms"/>
+<text class="alab" style="animation-delay:860ms" x="480.0" y="311" text-anchor="middle">11/4</text>
+<rect class="dbar" x="578.0" y="252.8" width="34.0" height="43.2" fill="url(#gsg)" style="animation-delay:900ms"/>
+<text class="alab" style="animation-delay:900ms" x="595.0" y="311" text-anchor="middle">11/5</text>
+<rect class="dbar" x="693.0" y="252.8" width="34.0" height="43.2" fill="url(#gsg)" style="animation-delay:940ms"/>
+<text class="alab" style="animation-delay:940ms" x="710.0" y="311" text-anchor="middle">11/6</text>
+<rect class="dbar" x="808.0" y="281.6" width="34.0" height="14.4" fill="url(#gsg)" style="animation-delay:980ms"/>
+<text class="alab" style="animation-delay:980ms" x="825.0" y="311" text-anchor="middle">11/7</text>
+<rect class="dbar" x="923.0" y="296.0" width="34.0" height="0.5" fill="url(#gsg)" style="animation-delay:1020ms"/>
+<text class="alab" style="animation-delay:1020ms" x="940.0" y="311" text-anchor="middle">11/8</text>
+<circle class="roll" cx="135.0" cy="224.0" r="4" fill="#a5d6ff" stroke="#0a0e14" stroke-width="2"/>
+<text class="roll" x="158.0" y="227.5" font-size="10" font-weight="600" fill="#c9d1d9" text-anchor="start">11/1 · 5</text>
 <text class="ok" style="animation-delay:1.3s" x="20" y="328">[ OK ] 峰值 11/1 · 5 次贡献 · 已开 PR 1 · CI 每日重烤</text>
 <rect class="cur" x="932.5" y="315" width="7.5" height="14" fill="#3fa060"/>
 </svg>
