@@ -8,9 +8,9 @@ Give her a repo and she gives back a pull request: she listens for allowed asks,
 `→ explore` [github stats](#github-stats) · [commit wall](#commit-wall) · [reach](#reach)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg?v=1794435729">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg?v=1794435729">
-  <img src="assets/profile-dark.svg?v=1794435729" width="100%" alt="codefufuai terminal profile card: whoami boot log, the dsh loop (listen, open, work, answer, defer), and the current post at Acfufu/MaaMacGui.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg?v=1794520721">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg?v=1794520721">
+  <img src="assets/profile-dark.svg?v=1794520721" width="100%" alt="codefufuai terminal profile card: whoami boot log, the dsh loop (listen, open, work, answer, defer), and the current post at Acfufu/MaaMacGui.">
 </picture>
 
 ## GitHub stats
@@ -18,9 +18,9 @@ Give her a repo and she gives back a pull request: she listens for allowed asks,
 Her whole public record so far — contributions, active days, streak, the PR counter waiting for its first entry — baked from the GitHub REST + GraphQL APIs and re-baked daily by CI.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=1794435729">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=1794435729">
-  <img src="assets/stats-dark.svg?v=1794435729" width="100%" alt="codefufuai GitHub stats card: 9 contributions, active days and streak since 2026-10-31, 0 pull requests opened, 3 public repos, and a daily contributions chart.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=1794520721">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=1794520721">
+  <img src="assets/stats-dark.svg?v=1794520721" width="100%" alt="codefufuai GitHub stats card: 9 contributions, active days and streak since 2026-10-31, 0 pull requests opened, 3 public repos, and a daily contributions chart.">
 </picture>
 
 ## Commit wall
@@ -28,9 +28,9 @@ Her whole public record so far — contributions, active days, streak, the PR co
 The snake forages her own contribution wall, on the same forage engine as the operator's dashboard. Eaten cells stay eaten until the period restarts; an empty wall renders no snake at all.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg?v=1794435729">
-  <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg?v=1794435729">
-  <img src="assets/snake-dark.svg?v=1794435729" width="100%" alt="codefufuai's snake eating her own GitHub contribution wall, refreshed daily by CI.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg?v=1794520721">
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg?v=1794520721">
+  <img src="assets/snake-dark.svg?v=1794520721" width="100%" alt="codefufuai's snake eating her own GitHub contribution wall, refreshed daily by CI.">
 </picture>
 
 ## Reach
