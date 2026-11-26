@@ -58,7 +58,7 @@
 .m51_4 { animation: km51_4 8.5s linear infinite, sm51_4 8.5s linear infinite; }@keyframes km50_2 { 0.000% { fill:#9be9a8; } 63.479% { fill:#9be9a8; } 63.529% { fill:#54aeff; } 64.706% { fill:#78a5dd; } 69.412% { fill:#78aceb; } 78.824% { fill:#94bfee; } 94.118% { fill:#b5d5f5; } 100% { fill:#b5d5f5; } }
 .m50_2 { animation: km50_2 8.5s linear infinite; }@keyframes km51_2 { 0.000% { fill:#9be9a8; } 64.656% { fill:#9be9a8; } 64.706% { fill:#54aeff; } 65.882% { fill:#78a5dd; } 70.588% { fill:#78aceb; } 80.000% { fill:#94bfee; } 95.294% { fill:#b5d5f5; } 100% { fill:#b5d5f5; } }
 .m51_2 { animation: km51_2 8.5s linear infinite; }@keyframes km51_3 { 0.000% { fill:#9be9a8; } 65.832% { fill:#9be9a8; } 65.882% { fill:#54aeff; } 67.059% { fill:#78a5dd; } 71.765% { fill:#78aceb; } 81.176% { fill:#94bfee; } 96.471% { fill:#b5d5f5; } 100% { fill:#b5d5f5; } }
-.m51_3 { animation: km51_3 8.5s linear infinite; }@keyframes km52_3 { 0.000% { fill:#ebedf0; } 67.009% { fill:#ebedf0; } 67.059% { fill:#54aeff; } 68.235% { fill:#0a5cc2; } 72.941% { fill:#0969da; } 82.353% { fill:#3d8ae0; } 97.647% { fill:#79b3ec; } 100% { fill:#79b3ec; } }
+.m51_3 { animation: km51_3 8.5s linear infinite; }@keyframes km52_3 { 0.000% { fill:#9be9a8; } 67.009% { fill:#9be9a8; } 67.059% { fill:#54aeff; } 68.235% { fill:#0a5cc2; } 72.941% { fill:#0969da; } 82.353% { fill:#3d8ae0; } 97.647% { fill:#79b3ec; } 100% { fill:#79b3ec; } }
 .m52_3 { animation: km52_3 8.5s linear infinite; }@keyframes km52_2 { 0.000% { fill:#9be9a8; } 68.185% { fill:#9be9a8; } 68.235% { fill:#54aeff; } 69.412% { fill:#0a5cc2; } 74.118% { fill:#0969da; } 83.529% { fill:#3d8ae0; } 98.824% { fill:#79b3ec; } 100% { fill:#79b3ec; } }
 .m52_2 { animation: km52_2 8.5s linear infinite; }@keyframes r0 { 0% { opacity:0; } 0.000% { opacity:1; } 8.235%,100% { opacity:0; } }
 .r0 { opacity:0; animation: r0 8.5s steps(1,end) infinite; }@keyframes r1 { 0% { opacity:0; } 8.235% { opacity:1; } 17.647%,100% { opacity:0; } }
@@ -436,7 +436,8 @@
 <rect x="890" y="64" width="12" height="12" rx="2" class="m52_0" fill="#9be9a8"/>
 <rect x="890" y="80" width="12" height="12" rx="2" class="m52_1" fill="#9be9a8"/>
 <rect x="890" y="96" width="12" height="12" rx="2" class="m52_2" fill="#9be9a8"/>
-<rect x="890" y="112" width="12" height="12" rx="2" class="m52_3" fill="#ebedf0"/>
+<rect x="890" y="112" width="12" height="12" rx="2" class="m52_3" fill="#9be9a8"/>
+<rect x="890" y="128" width="12" height="12" rx="2" class="h0" fill="#ebedf0"/>
 <text x="818" y="186" font-size="8.5" fill="#0969da" text-anchor="end" opacity="0.8">出生 2026-10-31</text>
 <text x="808" y="204" font-size="10" fill="#8c959f" text-anchor="end">少</text>
 <rect x="816" y="197" width="8" height="8" rx="1.5" class="h0"/>
@@ -454,5 +455,5 @@
 <text class="r4 num" x="556" y="226" font-size="12" font-weight="600" fill="#424a53">31</text>
 <text class="r5 num" x="642" y="226" font-size="12" font-weight="600" fill="#424a53">31</text>
 <text class="r6 num" x="729" y="226" font-size="12" font-weight="600" fill="#424a53">31</text>
-<text class="r7 num" x="816" y="226" font-size="12" font-weight="600" fill="#424a53">35</text>
+<text class="r7 num" x="816" y="226" font-size="12" font-weight="600" fill="#424a53">36</text>
 </svg>

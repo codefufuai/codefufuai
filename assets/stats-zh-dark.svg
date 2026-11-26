@@ -39,15 +39,15 @@
 <text x="86" y="27.2"><tspan fill="#58a6ff" font-weight="700">codefufuai@farrell-z</tspan><tspan fill="#6e7f95"> ~ % </tspan><tspan fill="#e6edf3">gh api graphql</tspan></text>
 <text x="936" y="27.2" fill="#6e7f95" text-anchor="end">rest v3 + graphql · 自 2026-10-31</text>
 <text class="liv fin" style="animation-delay:.05s" x="20" y="66">[LIVE] <tspan fill="#e6edf3" font-weight="700">@codefufuai · 3 个公开仓库 · 1 关注者 · 操作员 @Acfufu</tspan></text>
-<text class="ok" style="animation-delay:.18s" x="20" y="88">创建于 2026-10-31 · 在岗第 27 天 · 25 个活跃日 · 最长连击 25 天</text>
+<text class="ok" style="animation-delay:.18s" x="20" y="88">创建于 2026-10-31 · 在岗第 28 天 · 26 个活跃日 · 最长连击 26 天</text>
 <text class="slab" style="animation-delay:0.28s" x="128" y="122" text-anchor="middle">贡献</text>
-<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">35</text>
+<text class="fin" style="animation-delay:0.32s" x="128" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">36</text>
 <text class="stlab" style="animation-delay:0.36s" x="128" y="175" text-anchor="middle">日历总计</text>
 <text class="slab" style="animation-delay:0.35s" x="304" y="122" text-anchor="middle">活跃日</text>
-<text class="fin" style="animation-delay:0.39s" x="304" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">25</text>
-<text class="stlab" style="animation-delay:0.43s" x="304" y="175" text-anchor="middle">/ 26 天</text>
+<text class="fin" style="animation-delay:0.39s" x="304" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">26</text>
+<text class="stlab" style="animation-delay:0.43s" x="304" y="175" text-anchor="middle">/ 27 天</text>
 <text class="slab" style="animation-delay:0.42s" x="480" y="122" text-anchor="middle">连续</text>
-<text class="fin" style="animation-delay:0.46s" x="480" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">25天</text>
+<text class="fin" style="animation-delay:0.46s" x="480" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">26天</text>
 <text class="stlab" style="animation-delay:0.50s" x="480" y="175" text-anchor="middle">最长一段</text>
 <text class="slab" style="animation-delay:0.49s" x="656" y="122" text-anchor="middle">PR</text>
 <text class="fin" style="animation-delay:0.53s" x="656" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">1</text>
@@ -55,63 +55,65 @@
 <text class="slab" style="animation-delay:0.56s" x="832" y="122" text-anchor="middle">仓库</text>
 <text class="fin" style="animation-delay:0.60s" x="832" y="156" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3">3</text>
 <text class="stlab" style="animation-delay:0.64s" x="832" y="175" text-anchor="middle">2 个 fork + 本体</text>
-<text class="clab" style="animation-delay:.6s" x="20" y="210">贡献 · 近 26 天</text>
+<text class="clab" style="animation-delay:.6s" x="20" y="210">贡献 · 近 27 天</text>
 <line x1="20" y1="260.0" x2="940" y2="260.0" stroke="#6e7f95" stroke-width="1" opacity="0.18"/>
 <line x1="20" y1="296" x2="940" y2="296" stroke="#22406a" stroke-width="1"/>
-<rect class="dbar" x="6.8" y="267.2" width="26.5" height="28.8" fill="url(#gsg)" style="animation-delay:700ms"/>
+<rect class="dbar" x="7.3" y="267.2" width="25.5" height="28.8" fill="url(#gsg)" style="animation-delay:700ms"/>
 <text class="alab" style="animation-delay:700ms" x="20.0" y="311" text-anchor="middle">10/31</text>
-<rect class="dbar" x="43.6" y="224.0" width="26.5" height="72.0" fill="#a5d6ff" style="animation-delay:740ms"/>
-<text class="alab" style="animation-delay:740ms" x="56.8" y="311" text-anchor="middle">11/1</text>
-<rect class="dbar" x="80.4" y="267.2" width="26.5" height="28.8" fill="url(#gsg)" style="animation-delay:780ms"/>
-<text class="alab" style="animation-delay:780ms" x="93.6" y="311" text-anchor="middle">11/2</text>
-<rect class="dbar" x="117.2" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:820ms"/>
-<text class="alab" style="animation-delay:820ms" x="130.4" y="311" text-anchor="middle">11/3</text>
-<rect class="dbar" x="154.0" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:860ms"/>
-<text class="alab" style="animation-delay:860ms" x="167.2" y="311" text-anchor="middle">11/4</text>
-<rect class="dbar" x="190.8" y="252.8" width="26.5" height="43.2" fill="url(#gsg)" style="animation-delay:900ms"/>
-<text class="alab" style="animation-delay:900ms" x="204.0" y="311" text-anchor="middle">11/5</text>
-<rect class="dbar" x="227.6" y="252.8" width="26.5" height="43.2" fill="url(#gsg)" style="animation-delay:940ms"/>
-<text class="alab" style="animation-delay:940ms" x="240.8" y="311" text-anchor="middle">11/6</text>
-<rect class="dbar" x="264.4" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:980ms"/>
-<text class="alab" style="animation-delay:980ms" x="277.6" y="311" text-anchor="middle">11/7</text>
-<rect class="dbar" x="301.2" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1020ms"/>
-<text class="alab" style="animation-delay:1020ms" x="314.4" y="311" text-anchor="middle">11/8</text>
-<rect class="dbar" x="338.0" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1060ms"/>
-<text class="alab" style="animation-delay:1060ms" x="351.2" y="311" text-anchor="middle">11/9</text>
-<rect class="dbar" x="374.8" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1100ms"/>
-<text class="alab" style="animation-delay:1100ms" x="388.0" y="311" text-anchor="middle">11/10</text>
-<rect class="dbar" x="411.6" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1140ms"/>
-<text class="alab" style="animation-delay:1140ms" x="424.8" y="311" text-anchor="middle">11/11</text>
-<rect class="dbar" x="448.4" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1180ms"/>
-<text class="alab" style="animation-delay:1180ms" x="461.6" y="311" text-anchor="middle">11/12</text>
-<rect class="dbar" x="485.2" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1220ms"/>
-<text class="alab" style="animation-delay:1220ms" x="498.4" y="311" text-anchor="middle">11/13</text>
-<rect class="dbar" x="522.0" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1260ms"/>
-<text class="alab" style="animation-delay:1260ms" x="535.2" y="311" text-anchor="middle">11/14</text>
-<rect class="dbar" x="558.8" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1300ms"/>
-<text class="alab" style="animation-delay:1300ms" x="572.0" y="311" text-anchor="middle">11/15</text>
-<rect class="dbar" x="595.6" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1340ms"/>
-<text class="alab" style="animation-delay:1340ms" x="608.8" y="311" text-anchor="middle">11/16</text>
-<rect class="dbar" x="632.4" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1380ms"/>
-<text class="alab" style="animation-delay:1380ms" x="645.6" y="311" text-anchor="middle">11/17</text>
-<rect class="dbar" x="669.2" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1420ms"/>
-<text class="alab" style="animation-delay:1420ms" x="682.4" y="311" text-anchor="middle">11/18</text>
-<rect class="dbar" x="706.0" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1460ms"/>
-<text class="alab" style="animation-delay:1460ms" x="719.2" y="311" text-anchor="middle">11/19</text>
-<rect class="dbar" x="742.8" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1500ms"/>
-<text class="alab" style="animation-delay:1500ms" x="756.0" y="311" text-anchor="middle">11/20</text>
-<rect class="dbar" x="779.6" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1540ms"/>
-<text class="alab" style="animation-delay:1540ms" x="792.8" y="311" text-anchor="middle">11/21</text>
-<rect class="dbar" x="816.4" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1580ms"/>
-<text class="alab" style="animation-delay:1580ms" x="829.6" y="311" text-anchor="middle">11/22</text>
-<rect class="dbar" x="853.2" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1620ms"/>
-<text class="alab" style="animation-delay:1620ms" x="866.4" y="311" text-anchor="middle">11/23</text>
-<rect class="dbar" x="890.0" y="281.6" width="26.5" height="14.4" fill="url(#gsg)" style="animation-delay:1660ms"/>
-<text class="alab" style="animation-delay:1660ms" x="903.2" y="311" text-anchor="middle">11/24</text>
-<rect class="dbar" x="926.8" y="296.0" width="26.5" height="0.5" fill="url(#gsg)" style="animation-delay:1700ms"/>
-<text class="alab" style="animation-delay:1700ms" x="940.0" y="311" text-anchor="middle">11/25</text>
-<circle class="roll" cx="56.8" cy="224.0" r="4" fill="#a5d6ff" stroke="#0a0e14" stroke-width="2"/>
-<text class="roll" x="76.0" y="227.5" font-size="10" font-weight="600" fill="#c9d1d9" text-anchor="start">11/1 · 5</text>
+<rect class="dbar" x="42.6" y="224.0" width="25.5" height="72.0" fill="#a5d6ff" style="animation-delay:740ms"/>
+<text class="alab" style="animation-delay:740ms" x="55.4" y="311" text-anchor="middle">11/1</text>
+<rect class="dbar" x="78.0" y="267.2" width="25.5" height="28.8" fill="url(#gsg)" style="animation-delay:780ms"/>
+<text class="alab" style="animation-delay:780ms" x="90.8" y="311" text-anchor="middle">11/2</text>
+<rect class="dbar" x="113.4" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:820ms"/>
+<text class="alab" style="animation-delay:820ms" x="126.2" y="311" text-anchor="middle">11/3</text>
+<rect class="dbar" x="148.8" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:860ms"/>
+<text class="alab" style="animation-delay:860ms" x="161.5" y="311" text-anchor="middle">11/4</text>
+<rect class="dbar" x="184.2" y="252.8" width="25.5" height="43.2" fill="url(#gsg)" style="animation-delay:900ms"/>
+<text class="alab" style="animation-delay:900ms" x="196.9" y="311" text-anchor="middle">11/5</text>
+<rect class="dbar" x="219.6" y="252.8" width="25.5" height="43.2" fill="url(#gsg)" style="animation-delay:940ms"/>
+<text class="alab" style="animation-delay:940ms" x="232.3" y="311" text-anchor="middle">11/6</text>
+<rect class="dbar" x="255.0" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:980ms"/>
+<text class="alab" style="animation-delay:980ms" x="267.7" y="311" text-anchor="middle">11/7</text>
+<rect class="dbar" x="290.3" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1020ms"/>
+<text class="alab" style="animation-delay:1020ms" x="303.1" y="311" text-anchor="middle">11/8</text>
+<rect class="dbar" x="325.7" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1060ms"/>
+<text class="alab" style="animation-delay:1060ms" x="338.5" y="311" text-anchor="middle">11/9</text>
+<rect class="dbar" x="361.1" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1100ms"/>
+<text class="alab" style="animation-delay:1100ms" x="373.8" y="311" text-anchor="middle">11/10</text>
+<rect class="dbar" x="396.5" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1140ms"/>
+<text class="alab" style="animation-delay:1140ms" x="409.2" y="311" text-anchor="middle">11/11</text>
+<rect class="dbar" x="431.9" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1180ms"/>
+<text class="alab" style="animation-delay:1180ms" x="444.6" y="311" text-anchor="middle">11/12</text>
+<rect class="dbar" x="467.3" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1220ms"/>
+<text class="alab" style="animation-delay:1220ms" x="480.0" y="311" text-anchor="middle">11/13</text>
+<rect class="dbar" x="502.6" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1260ms"/>
+<text class="alab" style="animation-delay:1260ms" x="515.4" y="311" text-anchor="middle">11/14</text>
+<rect class="dbar" x="538.0" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1300ms"/>
+<text class="alab" style="animation-delay:1300ms" x="550.8" y="311" text-anchor="middle">11/15</text>
+<rect class="dbar" x="573.4" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1340ms"/>
+<text class="alab" style="animation-delay:1340ms" x="586.2" y="311" text-anchor="middle">11/16</text>
+<rect class="dbar" x="608.8" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1380ms"/>
+<text class="alab" style="animation-delay:1380ms" x="621.5" y="311" text-anchor="middle">11/17</text>
+<rect class="dbar" x="644.2" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1420ms"/>
+<text class="alab" style="animation-delay:1420ms" x="656.9" y="311" text-anchor="middle">11/18</text>
+<rect class="dbar" x="679.6" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1460ms"/>
+<text class="alab" style="animation-delay:1460ms" x="692.3" y="311" text-anchor="middle">11/19</text>
+<rect class="dbar" x="715.0" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1500ms"/>
+<text class="alab" style="animation-delay:1500ms" x="727.7" y="311" text-anchor="middle">11/20</text>
+<rect class="dbar" x="750.3" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1540ms"/>
+<text class="alab" style="animation-delay:1540ms" x="763.1" y="311" text-anchor="middle">11/21</text>
+<rect class="dbar" x="785.7" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1580ms"/>
+<text class="alab" style="animation-delay:1580ms" x="798.5" y="311" text-anchor="middle">11/22</text>
+<rect class="dbar" x="821.1" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1620ms"/>
+<text class="alab" style="animation-delay:1620ms" x="833.8" y="311" text-anchor="middle">11/23</text>
+<rect class="dbar" x="856.5" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1660ms"/>
+<text class="alab" style="animation-delay:1660ms" x="869.2" y="311" text-anchor="middle">11/24</text>
+<rect class="dbar" x="891.9" y="281.6" width="25.5" height="14.4" fill="url(#gsg)" style="animation-delay:1700ms"/>
+<text class="alab" style="animation-delay:1700ms" x="904.6" y="311" text-anchor="middle">11/25</text>
+<rect class="dbar" x="927.3" y="296.0" width="25.5" height="0.5" fill="url(#gsg)" style="animation-delay:1740ms"/>
+<text class="alab" style="animation-delay:1740ms" x="940.0" y="311" text-anchor="middle">11/26</text>
+<circle class="roll" cx="55.4" cy="224.0" r="4" fill="#a5d6ff" stroke="#0a0e14" stroke-width="2"/>
+<text class="roll" x="74.1" y="227.5" font-size="10" font-weight="600" fill="#c9d1d9" text-anchor="start">11/1 · 5</text>
 <text class="ok" style="animation-delay:1.3s" x="20" y="328">[ OK ] 峰值 11/1 · 5 次贡献 · 已开 PR 1 · CI 每日重烤</text>
 <rect class="cur" x="932.5" y="315" width="7.5" height="14" fill="#3fa060"/>
 </svg>
